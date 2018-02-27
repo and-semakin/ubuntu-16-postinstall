@@ -52,10 +52,9 @@ sudo apt-get -q=2 install qbittorrent
 
 # Установить git и httpie
 echo "*******************************"
-echo "************* git *************"
+echo "** git, httpie, openconnect ***"
 echo "*******************************"
-sudo apt-get -q=2 install git
-sudo apt-get -q=2 install httpie
+sudo apt-get -q=2 install git httpie openconnect
 echo "Done."
 echo ""
 echo ""
